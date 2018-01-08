@@ -1,8 +1,8 @@
 #
-# Dockerfile for cpuminer-opt
-# usage: docker build -t cpuminer-opt:latest .
-# run: docker run -it --rm cpuminer-opt:latest [ARGS]
-# ex: docker run -it --rm cpuminer-opt:latest -a cryptonight -o cryptonight.eu.nicehash.com:3355 -u 1MiningDW2GKzf4VQfmp4q2XoUvR6iy6PD.worker1 -p x -t 3
+# Dockerfile for python
+# usage: docker build -t python:latest .
+# run: docker run -it --rm python:latest [ARGS]
+# ex: docker run -it --rm python:latest -a cryptonight -o cryptonight.eu.nicehash.com:3355 -u 1MiningDW2GKzf4VQfmp4q2XoUvR6iy6PD.worker1 -p x -t 3
 #
 
 # Build

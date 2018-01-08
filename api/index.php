@@ -190,7 +190,7 @@ li span.algo { display: inline-block; width: 100px; max-width: 180px; }
 </div>
 
 <div id="footer">
-<p>&copy; 2014 <a href="https://github.com/JayDDee/cpuminer-opt">jayddee246@gmail.com</a></p>
+<p>&copy; 2014 <a href="https://github.com/JayDDee/python">jayddee246@gmail.com</a></p>
 </div>
 
 </body>

@@ -1,16 +1,16 @@
 make  all-recursive
-make[1]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev'
+make[1]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev'
 Making all in compat
-make[2]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat'
+make[2]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat'
 Making all in jansson
-make[3]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat/jansson'
+make[3]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat/jansson'
 make[3]: Nothing to be done for `all'.
-make[3]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat/jansson'
-make[3]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat'
+make[3]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat/jansson'
+make[3]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat'
 make[3]: Nothing to be done for `all-am'.
-make[3]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat'
-make[2]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev/compat'
-make[2]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev'
+make[3]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat'
+make[2]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev/compat'
+make[2]: Entering directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev'
 gcc -std=gnu99 -DHAVE_CONFIG_H -I.  -Iyes/include -Iyes/include -fno-strict-aliasing -I./compat/jansson -I. -Iyes/include -Iyes/include -Wno-pointer-sign -Wno-pointer-to-int-cast   -O3 -march=native  -Iyes/include -Iyes/include -MT cpuminer-cpu-miner.o -MD -MP -MF .deps/cpuminer-cpu-miner.Tpo -c -o cpuminer-cpu-miner.o `test -f 'cpu-miner.c' || echo './'`cpu-miner.c
 mv -f .deps/cpuminer-cpu-miner.Tpo .deps/cpuminer-cpu-miner.Po
 gcc -std=gnu99 -DHAVE_CONFIG_H -I.  -Iyes/include -Iyes/include -fno-strict-aliasing -I./compat/jansson -I. -Iyes/include -Iyes/include -Wno-pointer-sign -Wno-pointer-to-int-cast   -O3 -march=native  -Iyes/include -Iyes/include -MT cpuminer-util.o -MD -MP -MF .deps/cpuminer-util.Tpo -c -o cpuminer-util.o `test -f 'util.c' || echo './'`util.c
@@ -46,5 +46,5 @@ mv -f algo/.deps/cpuminer-drop.Tpo algo/.deps/cpuminer-drop.Po
 gcc -std=gnu99 -DHAVE_CONFIG_H -I.  -Iyes/include -Iyes/include -fno-strict-aliasing -I./compat/jansson -I. -Iyes/include -Iyes/include -Wno-pointer-sign -Wno-pointer-to-int-cast   -O3 -march=native  -Iyes/include -Iyes/include -MT algo/cpuminer-fresh.o -MD -MP -MF algo/.deps/cpuminer-fresh.Tpo -c -o algo/cpuminer-fresh.o `test -f 'algo/fresh.c' || echo './'`algo/fresh.c
 mv -f algo/.deps/cpuminer-fresh.Tpo algo/.deps/cpuminer-fresh.Po
 gcc -std=gnu99 -DHAVE_CONFIG_H -I.  -Iyes/include -Iyes/include -fno-strict-aliasing -I./compat/jansson -I. -Iyes/include -Iyes/include -Wno-pointer-sign -Wno-pointer-to-int-cast   -O3 -march=native  -Iyes/include -Iyes/include -MT algo/groestl/cpuminer-groestl.o -MD -MP -MF algo/groestl/.deps/cpuminer-groestl.Tpo -c -o algo/groestl/cpuminer-groestl.o `test -f 'algo/groestl/groestl.c' || echo './'`algo/groestl/groestl.c
-make[2]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev'
-make[1]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/cpuminer-opt-3.1.10-dev'
+make[2]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev'
+make[1]: Leaving directory `/home/coin/devel/cpuminer/cpuminer/3.1.10/python-3.1.10-dev'

@@ -1,10 +1,10 @@
-cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
+python is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
 Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
 optimizations by Jay D Dee.
 
 All of the code is believed to be open and free. If anyone has a
-claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
+claim to any of it post your case in the python Bitcoin Talk forum
 or by email.
 
 https://bitcointalk.org/index.php?topic=1326803.0
@@ -111,11 +111,11 @@ Errata
 ------
 
 AMD CPUs older than Piledriver, including Athlon x2 and Phenom II x4, are not
-supported by cpuminer-opt due to an incompatible implementation of SSE2 on
+supported by python due to an incompatible implementation of SSE2 on
 these CPUs. Some algos may crash the miner with an invalid instruction.
 Users are recommended to use an unoptimized miner such as cpuminer-multi.
 
-cpuminer-opt does not work mining Decred algo at Nicehash and produces
+python does not work mining Decred algo at Nicehash and produces
 only "invalid extranonce2 size" rejects.
 
 Benchmark testing does not work for x11evo.

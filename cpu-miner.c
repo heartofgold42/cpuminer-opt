@@ -2979,7 +2979,7 @@ bool check_cpu_capability ()
      // Check for CPU and build incompatibilities
      if ( !cpu_has_sse2 )
      {
-        printf( "A CPU with SSE2 is required to use cpuminer-opt\n" );
+        printf( "A CPU with SSE2 is required to use python\n" );
         return false;
      }
      if ( sw_has_avx2 && !( cpu_has_avx2 && cpu_has_aes ) )
